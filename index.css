@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+}
+.boxes-app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.small {
+  background-color: orange;
+  height: 50px;
+  width: 50px;
+  color: white;
+  text-align: center;
+  margin: 10px;
+}
+.medium {
+  background-color: #38bdf8;
+  height: 90px;
+  width: 90px;
+  color: white;
+  text-align: center;
+  margin: 10px;
+}
+.large {
+  background-color: #ec4899;
+  height: 150px;
+  width: 120px;
+  color: white;
+  text-align: center;
+  margin: 10px;
+}
+.title {
+  color: black;
+  font-family: "Roboto";
+  font-weight: bold;
+}
